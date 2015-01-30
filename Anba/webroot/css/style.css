@@ -1,0 +1,67 @@
+@import url(links.css);
+@import url(source.css);
+
+body {
+  color: #333;
+  font-family: arial, sans-serif;
+}
+
+h1 {
+  border-bottom: 1px solid #ccc;
+  text-transform: uppercase;
+}
+
+#wrapper {
+  margin: 0 auto;
+  width: 980px;
+  padding: 10px;
+}
+
+#header {
+  position: relative;
+  margin-bottom: 40px;
+}
+
+.sitetitle {
+  position: absolute;
+  top: 10px;
+  left: 170px;
+  font-size: 48px;
+}
+
+.siteslogan {
+  position: absolute;
+  top: 70px;
+  left: 170px;
+  font-style: italic;
+  color: #666;
+}
+
+#navbar {
+  margin-bottom: 2em;
+}
+
+#main {
+  min-height: 20em;
+}
+
+.readable {
+  width: 70%;
+  padding-right: 1em;
+  border-right: 1px solid #ccc;
+}
+
+#footer {
+  margin-top: 40px;
+  border-top: 1px solid #ccc;
+  padding-top: 15px;
+}
+
+.sitefooter {
+  color: #666;
+}
+
+#debug {
+  font-size: smaller;
+  color: #999;
+}
