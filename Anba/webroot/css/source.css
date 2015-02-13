@@ -3,10 +3,11 @@
  */
 .src-breadcrumb,
 .src-filelist {
-  font-family: monospace;
+  font: 'Trebuchet MS', Helvetica, Arial, Geneva, sans-serif;
   list-style-type: none;
   padding: 0;
   margin: 0 0 22px 0;
+  margin-left: 5px;
 }
 
 .src-breadcrumb li {
